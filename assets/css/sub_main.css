@@ -140,9 +140,13 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #000;
 	}
-
+    #header strong {
+        color: #fff
+            
+    
+    }
 	em, i {
 		font-style: italic;
 	}
