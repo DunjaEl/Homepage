@@ -1,0 +1,47 @@
+.content-gal {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-gal-item {
+    width: calc((100% - 100px) /3);
+    margin-right: 50px;
+}
+
+.content-gal-item:nth-child(3n) {
+    margin-right: 0
+}
+
+.content-gal-item img {
+    width:100%;
+}
+
+.wrapper.style2 {
+    padding-top: 0;
+		}
+
+.wrapper.style2 img{
+    width: 60%;
+    margin-right:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
