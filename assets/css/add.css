@@ -16,6 +16,12 @@
             margin-right: 0
         }
 
+        .content-gal-ton{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
         .content-gal-item img {
             width:100%;
         }
@@ -51,8 +57,12 @@
             padding-top: 10px;
 
         }
+    /*Header*/
 
-
+    #inner{
+        background: #607787;
+        
+}
 
 
 
