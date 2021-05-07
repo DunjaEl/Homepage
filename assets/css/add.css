@@ -37,8 +37,8 @@
         }
 
         .contentpic{
-            width: calc((100% - 80px) /2);
-            margin-right:80px;    
+            width: calc((70% - 80px) /2);
+            margin-right:90px;    
         }
 
         .contentpic img{ 
@@ -55,6 +55,7 @@
             text-transform: none !important;
             font-weight: 300;
             padding-top: 10px;
+            align-items: center;
 
         }
     /*Header*/
