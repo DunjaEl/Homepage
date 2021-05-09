@@ -7,18 +7,28 @@
 .bannerunterheader h2 {
     width: 100%;
     padding-left: 1.5em;
-    padding-top: 2em;
+    padding-top: 0.5em;
     text-align: center;
     color: #013145;
+    margin-bottom: 1em;
 }
-
-.bannerunterheader .flexboxcheck{
+.bulletpoint {
+    list-style-type: none;
+}
+.bulletpoint li {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 25px;
 }
-.bannerunterheader .flexboxcheck .childflex{
+.bulletpoint img {
+    display: inline-block;
+    border-radius: 100%;
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 45px;
     
-}    
+}
 /*Footer*/    
 
 #banner {
