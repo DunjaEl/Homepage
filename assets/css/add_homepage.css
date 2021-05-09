@@ -1,18 +1,26 @@
 
 /*Header*/
 
-#header .inner{
+#header .inner {
     background-color: 
-
-    
-    
-    
-    
-    
-    
-    
-/*Footer*/    
 }
+.bannerunterheader h2 {
+    width: 100%;
+    padding-left: 1.5em;
+    padding-top: 2em;
+    text-align: center;
+    color: #013145;
+}
+
+.bannerunterheader .flexboxcheck{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bannerunterheader .flexboxcheck .childflex{
+    
+}    
+/*Footer*/    
+
 #banner {
         background-color: rgba(96,119,135,0.2);
 }

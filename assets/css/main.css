@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #fff;
+		color: #013145;
 		line-height: 1.25em;
 	}
 
@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #607787
+		background: #22adcc
             ;
 		color: #fff;
 		text-align: center;
@@ -2078,7 +2078,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #8b4500;
+			background: #fe4c04;
 		}
 
 		input[type="button"].alt,
@@ -2147,7 +2147,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #013145;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2177,7 +2177,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header8.png");
+		background-image: url("../../images/header9.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2207,14 +2207,15 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 1.25em;
+				font-size: 1.35em;
 				margin: 0;
 			}
 
 		#header h1 {
 			color: #fff;
 			font-size: 6em;
-			line-height: 1em;
+			line-height: 2em;
+            font-family: sans-serif;
 		}
 
 			#header h1 a {
@@ -2461,7 +2462,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #013145;
 		color: #fff;
 	}
 
@@ -2508,7 +2509,10 @@ input, select, textarea {
 	.carousel {
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 2em 0;
+		padding-top: 9em;
+        padding-right: 0em;
+        padding-bottom: 9em;
+        padding-left: 0em;
 		margin-bottom: 0;
 	}
 
@@ -2527,7 +2531,7 @@ input, select, textarea {
 				width: 6em;
 				height: 6em;
 				border-radius: 100%;
-				background-color: rgba(72, 57, 73, 0.5);
+				background-color: rgba(34, 173, 204, 0.75);
 				position: absolute;
 				top: 50%;
 				margin-top: -3em;
@@ -2550,7 +2554,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: rgba(254, 76, 4, 0.75);
 			}
 
 		.carousel .forward {
@@ -2591,7 +2595,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #013145;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -2634,7 +2638,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 1.5em 0 1.5em 0;
+				padding: 8.5em 0 8.5em 0;
 			}
 
 				.carousel .reel {
@@ -2682,6 +2686,7 @@ input, select, textarea {
 			#banner {
 				padding-left: 2em;
 				padding-right: 2em;
+                
 			}
 
 		/* Footer */
@@ -3119,7 +3124,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 0.5em 0 0.5em 0;
+				padding: 0.8em 0 0.8em 0;
 			}
 
 				.carousel .reel {
