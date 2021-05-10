@@ -113,6 +113,7 @@ input, select, textarea {
 		font-weight: 400;
 		color: #013145;
 		line-height: 1.25em;
+        text-align: center;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1750,10 +1751,11 @@ input, select, textarea {
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
 			margin-bottom: 0;
+            line-height: 1.5em;
 		}
 
 		section.special > header, section.special > footer, article.special > header, article.special > footer {
-			text-align: center;
+			text-align: left;
 		}
 
 	.row > section, .row > article {
