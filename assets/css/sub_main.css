@@ -1937,7 +1937,7 @@ input, select, textarea {
 				text-align: center;
 				border-radius: 100%;
 				border: 0;
-				color: inherit;
+				color: #ffff;
 			}
 
 				ul.icons li a:hover {
@@ -2352,7 +2352,7 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: inherit;
+					color: #fff;
 					text-decoration: none;
 					border: 0;
 					outline: 0;

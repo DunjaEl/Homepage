@@ -47,7 +47,7 @@
 
         .bulletpoint{
             color: #000000;
-            font-size: 35px;
+            font-size: 30px;
             line-height: 88px;
             font-style: normal;
             font-variant: normal;
@@ -60,15 +60,27 @@
         }
     /*Header*/
 
-    #inner{
-        background: #607787;
-        
+        #inner{
+        background: #607787;    
+        }
+
+         
+.headerstart {
+    padding-top: 2em;
 }
 
+/*Footer*/    
+.faillist{
+    margin-top: 3em;
+}
 
-    
+.faillist li{
+    margin-left: 2em;
+}
 
-
+.faillist h3{
+    padding-bottom: 1em;
+}
 
 
 
