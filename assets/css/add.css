@@ -61,29 +61,11 @@
         }
     /*Header*/
 
-        #inner{
+        #inn er{
         background: #3c5e47;    
         }
-#header {
-		position: relative;
-		background-image: url("../../images/Header_Krautergrill.png");
-		background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;
-		color: #fff;
-		text-align: center;
-		padding: 7.5em 0 2em 0;
-		cursor: default;
-	}
 
-#header .inner {
-			position: relative;
-			z-index: 1;
-			margin: 0;
-			display: inline-block;
-			vertical-align: middle;
-            background-color: #3c5e47;
-		}
+
          
 .headerstart {
     padding-top: 2em;
