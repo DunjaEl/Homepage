@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    color: #013145;
+    color: #3c5e47;
 }
 
 article, aside, details, figcaption, figure,
@@ -164,7 +164,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #b99091;
+			color: #e39796;
 			border-bottom-color: transparent;
 		}
 
@@ -205,8 +205,8 @@ input, select, textarea {
 		top: 4.5em;
 		margin-bottom: 9em;
 		height: 6px;
-		border-top: solid 1px rgba(128, 128, 128, 0.2);
-		border-bottom: solid 1px rgba(128, 128, 128, 0.2);
+		border-top: solid 1px rgba(60, 94, 71, 0.2);
+		border-bottom: solid 1px rgba(60, 94, 71, 0.2);
 	}
 
 		hr:before, hr:after {
@@ -2153,7 +2153,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #3c5e47;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2183,7 +2183,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header4.png");
+		background-image: url("../../images/Header_Krautergrill.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
