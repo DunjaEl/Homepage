@@ -2209,6 +2209,7 @@ input, select, textarea {
 			margin: 0;
 			display: inline-block;
 			vertical-align: middle;
+            background-color: #3c5e47;
 		}
 
 		#header header {
@@ -2300,6 +2301,7 @@ input, select, textarea {
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+        background-color: #3c5e47;
 	}
 
 		#nav > ul {
