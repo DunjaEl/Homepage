@@ -2206,11 +2206,14 @@ input, select, textarea {
 		#header .inner {
 			position: relative;
 			z-index: 1;
-			margin: 0;
+			margin: 1;
 			display: inline-block;
 			vertical-align: middle;
-            background-color: #3c5e47;
+            background-color: rgba(60,94,71,0.8);
             border-radius: 25px;
+            padding: inherit;
+            font-family: sans-serif;
+            font-size: 15px;
 		}
 
 
@@ -2305,7 +2308,7 @@ input, select, textarea {
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
-        background-color: #3c5e47;
+        background-color: rgba(60,94,71,0.9);
 	}
 
 		#nav > ul {
