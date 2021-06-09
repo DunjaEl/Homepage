@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+html, body, div, span, applet, object,image,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,8 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
-
+	vertical-align: baseline;
+    color: #3c5e47;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -84,8 +85,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
-		color: #454e57;
+		background: #f0f4f4;
+		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -112,13 +113,12 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #013145;
+		color: #000;
 		line-height: 1.25em;
-        text-align: center;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: #fff;
+		color: inherit;
 		text-decoration: none;
 		border-bottom-color: transparent;
 	}
@@ -142,15 +142,19 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #013145;
+		color: #000;
 	}
-
+    #header strong {
+        color: #fff
+        
+    
+    }
 	em, i {
 		font-style: italic;
 	}
 
 	a {
-		color: #22adcc;
+		color: inherit;
 		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -160,7 +164,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #22adcc;
+			color: #e39796;
 			border-bottom-color: transparent;
 		}
 
@@ -201,8 +205,8 @@ input, select, textarea {
 		top: 4.5em;
 		margin-bottom: 9em;
 		height: 6px;
-		border-top: solid 1px rgba(128, 128, 128, 0.2);
-		border-bottom: solid 1px rgba(128, 128, 128, 0.2);
+		border-top: solid 1px rgba(60, 94, 71, 0.2);
+		border-bottom: solid 1px rgba(60, 94, 71, 0.2);
 	}
 
 		hr:before, hr:after {
@@ -1752,11 +1756,10 @@ input, select, textarea {
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
 			margin-bottom: 0;
-            line-height: 1.5em;
 		}
 
 		section.special > header, section.special > footer, article.special > header, article.special > footer {
-			text-align: left;
+			text-align: center;
 		}
 
 	.row > section, .row > article {
@@ -1770,7 +1773,7 @@ input, select, textarea {
 		header > p {
 			display: block;
 			font-size: 1.5em;
-			margin: 1em 0 1em 0;
+			margin: 1em 0 2em 0;
 			line-height: 1.5em;
 			text-align: inherit;
 		}
@@ -1934,11 +1937,11 @@ input, select, textarea {
 				text-align: center;
 				border-radius: 100%;
 				border: 0;
-				color: inherit;
+				color: #ffff;
 			}
 
 				ul.icons li a:hover {
-					color: #22adcc;
+					color: #ef8376;
 				}
 
 /* Form */
@@ -1946,7 +1949,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #ca0405;
+		color: #483949;
 		margin: 0 0 1em 0;
 	}
 
@@ -1975,7 +1978,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #ca0405;
+			border-color: #df7366;
 		}
 
 	form input[type="text"],
@@ -2058,7 +2061,8 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #e39796;
+		background: #607787
+            ;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2080,7 +2084,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #000;
+			background: #b99091;
 		}
 
 		input[type="button"].alt,
@@ -2149,7 +2153,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #013145;
+			background: #3c5e47;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2179,15 +2183,18 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/Header_Homepage.png");
+		background-image: url("../../images/Header_Krautergrill.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
-		padding: 0.5em 0 2em 0;
+		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
+        #header display:grid {     
+            grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    }
 
 		#header:before {
 			content: '';
@@ -2199,29 +2206,31 @@ input, select, textarea {
 		#header .inner {
 			position: relative;
 			z-index: 1;
-			margin: 0;
-            padding-bottom: 1.5em;
+			margin: 1;
 			display: inline-block;
 			vertical-align: middle;
-            line-height: 5em;
             background-color: rgba(60,94,71,0.8);
             border-radius: 25px;
+            padding: inherit;
+            font-family: sans-serif;
+            font-size: 15px;
 		}
+
+
 
 		#header header {
 			display: inline-block;
 		}
 
 			#header header > p {
-				font-size: 1.35em;
+				font-size: 1.25em;
 				margin: 0;
 			}
 
 		#header h1 {
 			color: #fff;
-			font-size: 6em;
-			line-height: 2em;
-            font-family: sans-serif;
+			font-size: 2.5em;
+			line-height: 5em;
 		}
 
 			#header h1 a {
@@ -2281,6 +2290,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
+           
 		}
 
 	body.homepage.is-preload #header:after {
@@ -2338,7 +2348,7 @@ input, select, textarea {
 				margin: -9px 0.5em 0 0.5em;
 				border-radius: 0.5em;
 				padding: 0.85em;
-				border: solid 5px transparent;
+				border: solid 1px transparent;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -2351,7 +2361,7 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: inherit;
+					color: #fff;
 					text-decoration: none;
 					border: 0;
 					outline: 0;
@@ -2385,7 +2395,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #e39796;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2468,8 +2478,8 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 0em 0 0em 0;
-		background: #e39796;
+		padding: 6em 0 6em 0;
+		background: #3c5e47;
 		color: #fff;
 	}
 
@@ -2498,13 +2508,13 @@ input, select, textarea {
 
 		#footer .copyright {
 			text-align: center;
-			color: rgba(128, 128, 128, 0.75);
+			color: #0000;
 			font-size: 0.8em;
 			cursor: default;
 		}
 
 			#footer .copyright a {
-				color: rgba(128, 128, 128, 0.75);
+				color: #0000;
 			}
 
 				#footer .copyright a:hover {
@@ -2516,10 +2526,7 @@ input, select, textarea {
 	.carousel {
 		position: relative;
 		overflow: hidden;
-		padding-top: 9em;
-        padding-right: 0em;
-        padding-bottom: 9em;
-        padding-left: 0em;
+		padding: 2em 0 2em 0;
 		margin-bottom: 0;
 	}
 
@@ -2538,7 +2545,7 @@ input, select, textarea {
 				width: 6em;
 				height: 6em;
 				border-radius: 100%;
-				background-color: rgba(227, 151, 150, 0.75);
+				background-color: rgba(72, 57, 73, 0.5);
 				position: absolute;
 				top: 50%;
 				margin-top: -3em;
@@ -2561,7 +2568,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(0, 0, 0, 0.75);
+				background-color: rgba(239, 131, 118, 0.75);
 			}
 
 		.carousel .forward {
@@ -2597,14 +2604,12 @@ input, select, textarea {
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
-            display: inline-flex;
 		}
 
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #3c5e47;
-            color: #fff;
+			background: #fff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -2631,7 +2636,6 @@ input, select, textarea {
 
 			.carousel article p {
 				text-align: center;
-                line-height: 1em;
 			}
 
 /* Wide */
@@ -2648,7 +2652,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 8.5em 0 8.5em 0;
+				padding: 1.5em 0 1.5em 0;
 			}
 
 				.carousel .reel {
@@ -2696,7 +2700,6 @@ input, select, textarea {
 			#banner {
 				padding-left: 2em;
 				padding-right: 2em;
-                
 			}
 
 		/* Footer */
@@ -3134,7 +3137,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 0.8em 0 0.8em 0;
+				padding: 0.5em 0 0.5em 0;
 			}
 
 				.carousel .reel {
