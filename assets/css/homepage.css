@@ -85,7 +85,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		color: #454e57;
+		color: rgba(60,94,71,0.9);
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1918,6 +1918,7 @@ input, select, textarea {
 		font-size: 1.25em;
 		cursor: default;
 		list-style: none;
+        color: #e39796;
 	}
 
 		ul.icons li {
@@ -1938,7 +1939,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #22adcc;
+					color: #000;
 				}
 
 /* Form */
